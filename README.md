@@ -1,3 +1,23 @@
+// Copyright (c) 2008 Satoshi Nakamoto
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+// SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+// OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+// IN THE SOFTWARE.
+
 # Discord Price Bot
 
 This Discord bot fetches price data from an API and updates its nickname in all the servers it's a member of to display the fetched price. The bot checks for price updates and changes its nickname every minute.
@@ -42,7 +62,7 @@ To run this bot, you need to have [Node.js](https://nodejs.org/en/) installed.
 
 ## Running the bot
 
-In the project directory, run `node src/main.js` to start the bot. It will log in to Discord and start updating its nickname according to the fetched price data.
+In the project directory, run `python bot.py` to start the bot. It will log in to Discord and start updating its nickname according to the fetched price data.
 
 ## License
 
