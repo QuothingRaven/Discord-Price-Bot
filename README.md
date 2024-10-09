@@ -24,7 +24,9 @@ This Discord bot fetches price data from an API and updates its nickname in all 
 
 ## Prerequisites
 
-To run this bot, you need to have [Node.js](https://nodejs.org/en/) installed.
+To run this bot, you need to have pip installed.
+
+Inside you terminal run "pip install discord.py requests"
 
 ## Setup
 
